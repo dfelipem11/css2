@@ -1,0 +1,201 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+main{
+    display: flex;
+    width: 95%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 4px 4px #fd0000;
+    padding: 2%;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color:#413f3f ;
+}
+
+.bugatti{
+    display: flex;
+    width: 35%;
+    height: 35%;
+    justify-content: center;
+    padding-bottom: 2%;
+    margin: 2%;
+}
+
+.bugatti_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 1%;
+}
+
+.bugatti figure{
+    position: relative;
+    box-shadow: 0px 15px, 25px rgb (0, 0, 0); 
+}
+
+.bugatti figure img{
+    transition: all 500ms ease-out;
+}
+
+.bugatti figure .info{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 100, 20, 0.8);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 1%;
+    border: 2%; 
+}
+
+.bugatti figure:hover .info{
+    opacity: 1;
+    visibility: visible;
+}
+
+.tuatara{
+    display: flex;
+    width: 35%;
+    height: 35%;
+    justify-content: center;
+    padding-bottom: 2%;
+    margin: 2%;
+}
+
+.tuatara_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 1%;
+}
+
+.tuatara figure{
+    position: relative;
+    box-shadow: 0px 15px, 25px rgb (0, 0, 0); 
+}
+
+.tuatara figure img{
+    transition: all 500ms ease-out;
+}
+
+.tuatara figure .info{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(201, 5, 9, 0.8);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 1%;
+    border: 2%; 
+}
+
+.tuatara figure:hover .info{
+    opacity: 1;
+    visibility: visible;
+}
+
+.koenigsegg{
+    display: flex;
+    width: 35%;
+    height: 35%;
+    justify-content: center;
+    padding-bottom: 2%;
+    margin: 2%;
+}
+
+.koenigsegg_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 1%;
+}
+
+.koenigsegg figure{
+    position: relative;
+    box-shadow: 0px 15px, 25px rgb (0, 0, 0); 
+}
+
+.koenigsegg figure img{
+    transition: all 500ms ease-out;
+}
+
+.koenigsegg figure .info{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 225, 80, 0.8);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2%;
+    margin: 1%;
+    border: 2%; 
+}
+
+.koenigsegg figure:hover .info{
+    opacity: 1;
+    visibility: visible;
+}
+
+figcaption{
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    font-weight: bolder;
+    margin: 1%;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 7%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
